@@ -1,0 +1,57 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+    
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 3px;
+}
+.p-1{
+    padding: 10px;
+}
+.spotifyPlaylist{
+    padding: 6px 16px ;
+    background: linear-gradient(179deg, #1E1E1E 9.2%, #121212 100%);
+}
+.h2{
+    overflow: hidden;
+    margin-top: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 17px;
+}
+.card-p{
+    
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-top: 5px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #a7a7a7; 
+}
